@@ -21,7 +21,7 @@
 |   `double`    |  双精度浮点数  | 10位有效数字 |
 | `long double` | 扩展精度浮点数 | 10位有效数字 |
 
-*C++11中cstdlib中可以使用uint32_t等类型，统一了不同编译器对long字长的定义*
+**C++11中cstdlib中可以使用uint32_t等类型，统一了不同编译器对long字长的定义**
 
 `bool`类型的取值是`true`或`false`。
 
