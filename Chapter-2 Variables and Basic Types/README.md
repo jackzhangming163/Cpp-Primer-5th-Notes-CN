@@ -13,13 +13,15 @@
 |   `wchar_t`   |     宽字符     |     16位     |
 |  `char16_t`   |  Unicode字符   |     16位     |
 |  `char32_t`   |  Unicode字符   |     32位     |
-|    `short`    |     短整数     |     16位     |       *C++11中cstdlib中可以使用uint32_t等类型，统一了不同编译器对long字长的定义*
+|    `short`    |     短整数     |     16位     |       
 |     `int`     |      整数      |     16位     |
 |    `long`     |     长整数     |     32位     |
 |  `long long`  |     长整数     |     64位     |
 |    `float`    |  单精度浮点数  | 6位有效数字  |
 |   `double`    |  双精度浮点数  | 10位有效数字 |
 | `long double` | 扩展精度浮点数 | 10位有效数字 |
+
+*C++11中cstdlib中可以使用uint32_t等类型，统一了不同编译器对long字长的定义*
 
 `bool`类型的取值是`true`或`false`。
 
